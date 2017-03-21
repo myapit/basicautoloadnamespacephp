@@ -9,3 +9,5 @@ Requirements
 
 This strcutre will be using Autoloading and Namespace in PHP.
 Composer to generate autoloading based on PSR-4
+
+-any changes to /app/ folder, execute $composer dump-autoload -o
