@@ -5,7 +5,7 @@ class Database {
     
     private $conn = null;
 
-	public function __construct($file="/../configuration.php") 
+	public function __construct($file=__DIR__ . "/../configuration.php") 
 	{
 		if (!$cfg = parse_ini_file($file, TRUE)) 
 			throw new \exception('Unable to open '.$file.'.');
